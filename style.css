@@ -3,9 +3,8 @@
     margin: 0px;
     padding: 0px;
     font-family: "Montserrat";
-    ;
+    
 }
-
 
 .header {
     width: 1100px;
@@ -72,13 +71,12 @@ section {
     margin-bottom: 50px;
 }
 
-
-
 h1 {
     font-weight: 500;
     font-size: 50px;
     margin-top: auto;
 }
+
 h2 {
     font-weight: 800;
     font-size: 45px;
@@ -88,8 +86,6 @@ h2 {
     line-height: 50px;
 }
 
-
-
 p {
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
@@ -98,23 +94,9 @@ p {
     font-size: 20px;
 }
 
-.tengah {
-    text-align: center;
-    width: 100%;
-}
-
-.tutor-list {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
 #contact {
     padding:100px 0px 50px 0px;
 }
-
 
 h3 {
     font-weight: 800;
@@ -154,6 +136,7 @@ h4 {
     margin: 5px;
     padding: 20px;
   }
+
 .k2 {
     display: grid;
     float: left;
@@ -162,6 +145,7 @@ h4 {
     margin: 5px;
     padding: 20px;
 }
+
 .k3 {
     display: grid;
     text-align: center;
@@ -184,8 +168,6 @@ table {
     margin-right: auto;
 }
 
-
-
 .tbl3 {
     background-color: #00dfc0;
     color: white;
@@ -202,7 +184,6 @@ table {
     
    
 }
-
 
 .card-grid {
     display: grid;
@@ -231,6 +212,7 @@ table {
     object-fit: contain;
     border-radius: 0;
 }
+
 .desk {
     font-size: 15px;
     padding-top: 0px;
@@ -238,6 +220,7 @@ table {
     padding: 10px;
 
 }
+
 .judul {
     padding-top: 10px;
     font-size: 23px;
@@ -253,8 +236,6 @@ table {
 
  }
     
-
-
 .box {
     background-color: #00dfc0;
     width: 100%;
@@ -267,14 +248,6 @@ table {
     width: 1150px;
     height: 15000px;
 
-}
-
-.isi {
-    font-size: 35px;
-    color: #FFFFFF;
-    width: 1100px;
-    margin: auto;
-    position: relative;
 }
 
 .tell {
@@ -295,7 +268,7 @@ table {
     size: 55px;
 }
 
-.cous {
+.cus {
     font-size: 35px;
     width: 1100px;
     margin: auto;
@@ -314,22 +287,26 @@ table {
     padding-top: 50px;
     padding: 0 25px;
 }
+
 .form-container {
     border: 4px solid #00dfc0;
     width: 500px;
     text-align: left;
     
-  }
+}
+
 .formslide3 {
     text-align: center;
   font-size: 30px;
   margin: 40px;
 }
+
 .forminput{
     display: grid;
   grid-template-columns: auto auto;
   margin: 10px;
 }
+
 .form {
     display: flex;
     flex-direction: column;
@@ -350,17 +327,8 @@ button {
     width: 460px;
 }
 
-.pg2,
-.pg1,
-.pg3 { 
-    font-size: 15px; margin-left: 10px; margin-top: 20px;
-}
 
-.hg1,
-.hg2,
-.hg3 {
-    margin-left: 10px; margin-top: 20px; margin-bottom: 20px;
-}
+
 .h3-inp {
     text-align: center; font-size: 30px;
     margin: 40px;
@@ -371,7 +339,8 @@ label {
     text-align: left;
     font-weight: bold;
     font-size: 23px;
-  }
+}
+
   input {
     font-size: 18px;
     width: 180px;
@@ -390,12 +359,14 @@ label {
     background-color: #333;
     color: black;
   }
+
   .form3 {
     display: grid;
     grid-template-columns: auto;
     width: 425px;
     margin: 10px;
   }
+
   .form3 .underline {
     display: grid;
     grid-template-columns: auto;
@@ -405,8 +376,9 @@ label {
     height: 2px;
     background-color: #333;
     color: black;
-  }  
-  .slideterakhir {
+  }
+
+  .lastslide {
     background-color:  #00dfc0; 
     display: flex;
     flex-direction: row;
@@ -416,6 +388,7 @@ label {
     padding-left: 125px;
     padding-right: 125px;
   }
+  
   .mancur {
     display: flex;
     flex-direction: row-reverse;
@@ -423,14 +396,22 @@ label {
  
   }
 
-  .tearkhir {
+  .last {
     padding-top: 25px;
     color: white;
     width: 350px;
   }
+
   .terakhir2 {
     padding-top: 25px;
     color: white;
+    padding-top: 25px;
+    fill: #FFFFFF;
+    fill-rule:nonzero;
+    stroke-width:1px;
+    stroke-linecap:butt;
+    stroke-linejoin:miter;
+    stroke-miterlimit:10;
   }
   
   .terakhir2 svg {
@@ -448,4 +429,8 @@ label {
 
   .ft {
     color:white;
+  }
+
+  .ftl{
+    color: #fff;
   }
